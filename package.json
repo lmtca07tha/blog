@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "blog"
+  ],
+  "homepage": "https://github.com/lmtca07tha/blog#readme",
+  "bugs": {
+    "url": "https://github.com/lmtca07tha/blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmtca07tha/blog.git"
+  },
+  "license": "ISC",
+  "author": "lmt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
